@@ -1,0 +1,11 @@
+<form [formGroup]="product" (ngSubmit)="onProductSubmited(product)">
+  <input type="text" formControlName="title" placeholder="Title" /><input
+    type="text"
+    formControlName="price"
+    placeholder="Price"
+  /><input
+    type="text"
+    formControlName="description"
+    placeholder="Description"
+  /><input type="submit" value="Submit" />
+</form>

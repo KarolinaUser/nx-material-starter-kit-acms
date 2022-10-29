@@ -1,0 +1,7 @@
+<ul>
+    <li *ngFor="let item of products$ | async">
+        {{item.title}} {{item.price}}
+        <button [routerLink]="'/detail/'+ item.id">DETAIL</button>
+        <button (click)="onProductDeleteed(item.id)" >DELETE</button>
+    </li>
+</ul>

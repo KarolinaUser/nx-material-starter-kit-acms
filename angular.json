@@ -1,8 +1,1 @@
-{
-  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
-  "version": 2,
-  "projects": {
-    "app": "apps/app",
-    "app-e2e": "apps/app-e2e"
-  }
-}
+{"$schema":"./node_modules/nx/schemas/workspace-schema.json","version":2,"projects":{"app":"apps/app","app-e2e":"apps/app-e2e","products":{"projectType":"library","root":"projects/products","sourceRoot":"projects/products/src","prefix":"lib","architect":{}},"form":{"projectType":"library","root":"projects/Form","sourceRoot":"projects/Form/src","prefix":"lib","architect":{}},"chip-list":{"projectType":"library","root":"projects/chipList","sourceRoot":"projects/chipList/src","prefix":"lib","architect":{}}}}

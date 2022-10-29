@@ -1,0 +1,9 @@
+<h1>Product {{(  productDetail$ | async)?.id}}</h1>
+
+<div class="container">
+ {{(  productDetail$ | async)?.title}}
+ {{(  productDetail$ | async)?.description}}
+ {{(  productDetail$ | async)?.price}}
+  <img [src]="(productDetail$ | async)?.image" alt="product">
+
+</div>

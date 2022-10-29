@@ -1,0 +1,13 @@
+
+<mat-chip-list
+  class="example-chip"
+  cdkDropList 
+  cdkDropListOrientation="horizontal"
+ >
+  <mat-chip
+    class="example-box"
+    cdkDrag
+    *ngFor="let item of chipList$ | async">
+    {{item}}
+  </mat-chip>
+</mat-chip-list>
